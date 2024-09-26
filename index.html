@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaz auto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <h1 class="h1 text-light m-3">Автомобили на продаже</h1>
+    <div class="input-group mb-3">
+        <input type="text" id="brandInput" class="form-control" placeholder="Марка">
+        <input type="text" id="priceInput" class="form-control" placeholder="Цена в ₽">
+        <button onclick="saveItem()" class="btn btn-success">Добавить автомобиль</button>
+    </div>
+    <table class="table text-light">
+        <thead>
+            <tr>
+                <th>Марка</th>
+                <th>Цена в ₽</th>
+                <th>Удаление</th>
+                <th>Изменение</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Данные будут добавлены здесь -->
+        </tbody>
+    </table>
+</body>
+</html>
